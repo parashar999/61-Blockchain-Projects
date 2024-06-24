@@ -1,3 +1,28 @@
+# Risk Management
+
+- The data for the risk management plan was derived from general risk management principles and best practices commonly applied in project management and software development.
+- The risks, impact levels, and likelihood levels were formulated based on a combination of industry standards, authoritative guidelines, and contextual research specific to the development of a cryptocurrency wallet on the Ethereum blockchain.
+
+### Key References:
+
+1. **Project Management Institute (PMI) - PMBOK Guide**:
+   - Source: Project Management Institute. (2017). A Guide to the Project Management Body of Knowledge (PMBOK Guide) (6th ed.). Project Management Institute.
+
+2. **ISO 31000 - Risk Management Guidelines**:
+   - Source: International Organization for Standardization. (2018). ISO 31000:2018 Risk Management – Guidelines.
+
+3. **NIST SP 800-30 - Guide for Conducting Risk Assessments**:
+   - Source: National Institute of Standards and Technology. (2012). NIST Special Publication 800-30 Revision 1: Guide for Conducting Risk Assessments.
+
+4. **"Risk Management in Software Development Projects" by John McManus**:
+   - Source: McManus, J. (2004). Risk Management in Software Development Projects. Elsevier.
+
+5. **"The Basics of Project Evaluation and Lessons Learned" by Willis H. Thomas**:
+   - Source: Thomas, W. H. (2011). The Basics of Project Evaluation and Lessons Learned. CRC Press.
+
+These sources provide comprehensive frameworks and guidelines that were adapted to the specific requirements and context of the cryptocurrency wallet project.
+# Used ChatGPT to collect and analysze this data.
+
 # Risk Management Plan for Cryptocurrency Wallet on Ethereum
 
 ## Overview
