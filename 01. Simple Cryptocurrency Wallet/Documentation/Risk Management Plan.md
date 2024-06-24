@@ -30,7 +30,7 @@ This risk management plan identifies potential risks that may arise during the d
 
 ## Risk Identification
 
-| **Risk ID** | **Risk Description**                                      | **Impact** | **Likelihood** | **Impact Level** | **Likelihood Level** | **Risk Level** (Impact * Likelihood) |
+| **Risk ID** | **Risk Description**                                      | **Impact** | **Likelihood** | **Impact Level on level of 5** | **Likelihood Level on level of 5** | **Risk Level on level of 25** (Impact * Likelihood) |
 |-------------|------------------------------------------------------------|------------|----------------|------------------|----------------------|---------------------------------------|
 | R1          | Security vulnerabilities in the wallet application         | High       | Medium         | 5                | 3                    | 15                                    |
 | R2          | Private key exposure leading to loss of funds              | High       | Low            | 5                | 2                    | 10                                    |
