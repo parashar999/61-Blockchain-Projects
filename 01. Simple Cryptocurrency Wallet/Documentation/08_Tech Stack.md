@@ -7,8 +7,7 @@ To develop a secure, efficient, and scalable cryptocurrency wallet on the Ethere
   - **Reference**: [React.js Documentation](https://reactjs.org/docs/getting-started.html)
 - **Redux**: A state management library for JavaScript applications, useful for managing the application state.
   - **Reference**: [Redux Documentation](https://redux.js.org/introduction/getting-started)
-- **Material-UI**: A React component library that implements Google's Material Design.
-  - **Reference**: [Material-UI Documentation](https://mui.com/getting-started/usage/)
+- **Material-UI**: Figma
 
 ## Backend (Server-Side)
 - **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine, ideal for building fast and scalable server-side applications.
@@ -76,7 +75,7 @@ To develop a secure, efficient, and scalable cryptocurrency wallet on the Ethere
 |-------------------------|-----------------|-----------|
 | **Frontend**            | React.js        | [React.js Documentation](https://reactjs.org/docs/getting-started.html) |
 |                         | Redux           | [Redux Documentation](https://redux.js.org/introduction/getting-started) |
-|                         | Material-UI     | [Material-UI Documentation](https://mui.com/getting-started/usage/) |
+|                         | Figma    | ---- |
 | **Backend**             | Node.js         | [Node.js Documentation](https://nodejs.org/en/docs/) |
 |                         | Express.js      | [Express.js Documentation](https://expressjs.com/) |
 |                         | MongoDB         | [MongoDB Documentation](https://docs.mongodb.com/) |
