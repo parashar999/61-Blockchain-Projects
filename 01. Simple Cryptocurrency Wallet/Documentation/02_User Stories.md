@@ -72,4 +72,3 @@
     - **Acceptance Criteria:**
       - The application uses HTTPS for all communications.
       - Private keys are encrypted before being stored.
-      -
