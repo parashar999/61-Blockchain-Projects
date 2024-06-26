@@ -66,24 +66,7 @@
 10. API Gateway sends transaction details to the UI.
 11. UI updates the user's balance and transaction history.
 
-```plaintext
-User -> UI: Check Wallet Address
-UI -> API Gateway: Request Wallet Address
-API Gateway -> Wallet Service: Retrieve Wallet Address
-Wallet Service -> API Gateway: Return Wallet Address
-API Gateway -> UI: Return Wallet Address
-UI -> User: Display Wallet Address
-Sender -> Ethereum Blockchain: Send Ether
-Ethereum Blockchain -> Infura: Process Transaction
-Infura -> Transaction Service: Notify Incoming Transaction
-Transaction Service -> Infura: Retrieve Transaction Details
-Infura -> Transaction Service: Return Transaction Details
-Transaction Service -> Database: Store Transaction Details
-Database -> Transaction Service: Confirmation
-Transaction Service -> API Gateway: Send Transaction Details
-API Gateway -> UI: Send Transaction Details
-UI -> User: Update Balance and Transaction History
-```
+![image](https://github.com/sharmatarun392000/Blockchain-Projects/assets/83560354/a4540b56-fd41-4969-985c-12343f3e67c3)
 
 ### Sequence Diagram 5: View Transaction History
 
