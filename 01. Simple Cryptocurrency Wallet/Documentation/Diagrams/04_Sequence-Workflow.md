@@ -1,5 +1,3 @@
-Sure, here are the sequence diagrams for the main interactions in your cryptocurrency wallet system on Ethereum:
-
 ### Sequence Diagram 1: Wallet Creation
 
 **Description**: This sequence diagram shows the steps involved when a user creates a new wallet.
@@ -14,17 +12,8 @@ Sure, here are the sequence diagrams for the main interactions in your cryptocur
 7. API Gateway sends wallet details to the UI.
 8. UI displays the wallet information to the user.
 
-```plaintext
-User -> UI: Initiate Wallet Creation
-UI -> API Gateway: Request Wallet Creation
-API Gateway -> Wallet Service: Create Wallet
-Wallet Service -> Wallet Service: Generate Key Pair
-Wallet Service -> Database: Store Wallet Information
-Database -> Wallet Service: Confirmation
-Wallet Service -> API Gateway: Return Wallet Details
-API Gateway -> UI: Return Wallet Details
-UI -> User: Display Wallet Information
-```
+![image](https://github.com/sharmatarun392000/Blockchain-Projects/assets/83560354/a57f06b8-5dfe-4264-9862-195be61a3382)
+
 
 ### Sequence Diagram 2: Import Wallet
 
