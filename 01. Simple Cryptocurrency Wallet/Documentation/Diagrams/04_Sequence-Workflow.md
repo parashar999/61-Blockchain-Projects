@@ -27,19 +27,8 @@
 5. Wallet Service stores the wallet information in the Database.
 6. Wallet Service sends wallet details back to the API Gateway.
 7. API Gateway sends wallet details to the UI.
-8. UI displays the wallet information to the user.
+![image](https://github.com/sharmatarun392000/Blockchain-Projects/assets/83560354/735ba432-85a5-453f-bf87-527b34cffecf)
 
-```plaintext
-User -> UI: Initiate Wallet Import
-UI -> API Gateway: Request Wallet Import
-API Gateway -> Wallet Service: Import Wallet
-Wallet Service -> Wallet Service: Validate Private Key
-Wallet Service -> Database: Store Wallet Information
-Database -> Wallet Service: Confirmation
-Wallet Service -> API Gateway: Return Wallet Details
-API Gateway -> UI: Return Wallet Details
-UI -> User: Display Wallet Information
-```
 
 ### Sequence Diagram 3: Send Ether
 
@@ -57,19 +46,8 @@ UI -> User: Display Wallet Information
 9. API Gateway sends the transaction hash to the UI.
 10. UI displays the transaction status to the user.
 
-```plaintext
-User -> UI: Initiate Ether Transfer
-UI -> API Gateway: Request Ether Transfer
-API Gateway -> Transaction Service: Process Ether Transfer
-Transaction Service -> Transaction Service: Create and Sign Transaction
-Transaction Service -> Infura: Send Transaction
-Infura -> Transaction Service: Return Transaction Hash
-Transaction Service -> Database: Store Transaction Details
-Database -> Transaction Service: Confirmation
-Transaction Service -> API Gateway: Return Transaction Hash
-API Gateway -> UI: Return Transaction Hash
-UI -> User: Display Transaction Status
-```
+![image](https://github.com/sharmatarun392000/Blockchain-Projects/assets/83560354/7276e330-58b5-4a1c-aa28-501646a514f0)
+
 
 ### Sequence Diagram 4: Receive Ether
 
