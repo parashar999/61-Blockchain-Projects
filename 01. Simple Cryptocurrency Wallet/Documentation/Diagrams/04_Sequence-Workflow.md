@@ -125,15 +125,5 @@ Steps:
 7. Wallet Service sends the backup file to the API Gateway.
 8. API Gateway sends the backup file to the UI.
 9. UI provides the backup file to the user for download.
-```plaintext
-User -> UI: Initiate Backup Creation
-UI -> API Gateway: Request Backup Creation
-API Gateway -> Wallet Service: Create Backup
-Wallet Service -> Database: Retrieve Wallet Data
-Database -> Wallet Service: Return Wallet Data
-Wallet Service -> Wallet Service: Encrypt Wallet Data
-Wallet Service -> Wallet Service: Generate Backup File
-Wallet Service -> API Gateway: Return Backup File
-API Gateway -> UI: Return Backup File
-UI -> User: Provide Backup File for Download
-```
+
+![image](https://github.com/sharmatarun392000/Blockchain-Projects/assets/83560354/8aa78dbe-ba1a-4791-9eb9-124564911a13)
