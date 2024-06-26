@@ -109,16 +109,8 @@ UI -> User: Display Transaction History
 6. API Gateway sends the wallet balance to the UI.
 7. UI displays the wallet balance to the user.
 
-```plaintext
-User -> UI: Check Wallet Balance
-UI -> API Gateway: Request Wallet Balance
-API Gateway -> Wallet Service: Retrieve Wallet Balance
-Wallet Service -> Infura: Retrieve Balance from Blockchain
-Infura -> Wallet Service: Return Wallet Balance
-Wallet Service -> API Gateway: Return Wallet Balance
-API Gateway -> UI: Return Wallet Balance
-UI -> User: Display Wallet Balance
-```
+![image](https://github.com/sharmatarun392000/Blockchain-Projects/assets/83560354/25f225c3-18ea-4eed-bc22-873618bd1ad9)
+
 ### Sequence Diagram 7: Create Backup
 
 **Description**: This sequence diagram shows the steps involved when a user creates a backup of their wallet.
